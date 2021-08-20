@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="navcontainer">
+			<p class="logo">Books</p>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Services</li>
+				<li>Libros almacenados</li>
+				<li class="active">Buscar libro</li>
+			</ul>
+		</div>
+	</div>
+	<main>
+		<section class="section1">
+            <h2>Enter ISBN</h2>
+            <form action="http://localhost:8000#books-anchor" method="GET">
+                <input type="text" name="code">
+                <button type="submit" id="submit">Submit</button>
+            </form>
+          
+
+        </section>
+        <div class="spacer layer1"></div>
+        <a id="books-anchor"></a>
+		<section class="section2">Content 2
+            <h1>{{title}}</h1>
+
+        </section>
+        <div class="spacer layer2 flip"></div>
+		<section class="section3">Content 3</section>
+	</main>
+	<script src="../scripts/script.js"></script>
+</body>
+
+</html>
