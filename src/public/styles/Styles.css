@@ -29,7 +29,7 @@ body {
 .logo {
     font-size: 3em;
     transition: 0.15s;
-    font-family: 'Allison', cursive;;
+    font-family: 'Allison', cursive;
 }
 .active {
     background: #c5174d;
@@ -92,12 +92,12 @@ section {
 }
 
 
-.card{
+.carta{
   background: #dd3f31 !important;
   border-style: none;
 
 }
-.card-header{
+.carta-header{
   background: #dd3f31 !important;
   border-style: none;
 }
@@ -111,6 +111,7 @@ section {
   border-color: #202731;
   background: #dd3f31 !important;
   font-size: xx-large !important;
+  color:#202731
 
 }
 .input:focus {
@@ -121,4 +122,29 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
+}
+.title{
+  font-family: 'Allison', cursive;
+  font-size: 5rem
+
+}
+.subtitle{
+  font-family: 'Allison', cursive;
+  font-size: 2rem
+}
+.list-group{
+  text-align: center;
+  color: #f6f6f6;
+  border-style: none;
+}
+.list-group-item{
+  background-color: #202731;
+  color: #f6f6f6;
+  border-style: none;
+}
+.carta-book{
+  border-style: none;
+  text-align: center;
+  color: #f6f6f6;
+  background-color: #202731;
 }
