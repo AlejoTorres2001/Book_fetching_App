@@ -90,3 +90,35 @@ section {
     text-align: left;
   }
 }
+
+
+.card{
+  background: #dd3f31 !important;
+  border-style: none;
+
+}
+.card-header{
+  background: #dd3f31 !important;
+  border-style: none;
+}
+.btn-primary{
+  background: #c5174d !important;
+  border-style: none;
+}
+.input{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #202731;
+  background: #dd3f31 !important;
+  font-size: xx-large !important;
+
+}
+.input:focus {
+  border-color: #202731
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}

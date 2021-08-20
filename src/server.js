@@ -35,7 +35,6 @@ app.get('/', async (req, res) => {
     }
     else{
         res.render('main', {layout : 'index'});
-        // res.sendFile(__dirname+'/public/views/index.html')
         
     }
     

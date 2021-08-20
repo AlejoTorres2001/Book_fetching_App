@@ -8,25 +8,10 @@
 </head>
 
 <body>
-	<div class="navbar">
-		<div class="navcontainer">
-			<p class="logo">Books</p>
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Services</li>
-				<li>Libros almacenados</li>
-				<li class="active">Buscar libro</li>
-			</ul>
-		</div>
-	</div>
+	{{>nav}}
 	<main>
 		<section class="section1">
-            <h2>Enter ISBN</h2>
-            <form action="http://localhost:8000#books-anchor" method="GET">
-                <input type="text" name="code">
-                <button type="submit" id="submit">Submit</button>
-            </form>
+            {{>fetching}}
           
 
         </section>
