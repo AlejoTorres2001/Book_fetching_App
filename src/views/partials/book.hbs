@@ -1,3 +1,4 @@
+{{#if title }}
 <div class="carta-book card w-50" style="width: 18rem;">
   <img
     src={{img}}
@@ -14,3 +15,9 @@
     <li class="list-group-item">Publish date: {{publish_date}}</li>
   </ul>
 </div>
+{{else}}
+ {{#each storagedBooks}}
+    <h1>{{this}}</h1>
+    {{/each}}
+{{/if}}
+

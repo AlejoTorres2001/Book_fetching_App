@@ -148,3 +148,25 @@ input:-webkit-autofill:active {
   color: #f6f6f6;
   background-color: #202731;
 }
+.subtitlefooter{
+margin-bottom: revert;
+font-family: 'Allison', cursive;
+}
+.pasos{
+  font-family: 'Allison', cursive;
+  font-size: 2rem;
+  display: flex;
+}
+.titulo-how-work{
+  margin-top: -10vh;
+}
+.lista{
+  padding-left: 0rem;
+}
+.example{
+    display: flex;
+    justify-content: center;
+    margin-right: 28vh;
+    font-family: 'Allison', cursive;
+    font-size: 1rem;
+}
