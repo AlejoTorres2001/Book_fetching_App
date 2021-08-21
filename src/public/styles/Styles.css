@@ -201,3 +201,35 @@ a{
   color: #f6f6f6;
 }
 a:hover { color:#dd3f31; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  font-family: 'Allison', cursive;
+  font-size: 3em;
+}
+.socialicons {
+  display: flex;
+  margin-top: 100px;
+}
+.socialicons .icon{
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 5px 10px rgba(0,0,0,0.05);
+  margin: 0 30px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #f6f6f6;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.socialicons .icon:hover {
+  color: #dd3f31;
+}
