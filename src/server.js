@@ -29,14 +29,20 @@ app.get('/', async (req, res) => {
     if (Object.entries(req.query).length !== 0){
         const code =req.query.code
         const book = await getBook.getBook(code)
-        console.log(book)
         const title = book[code].title
         const number_of_pages = book[code].number_of_pages
         const subtitle = book[code].subtitle
         const publish_date = book[code].publish_date
         const img = await book[code].cover.large
         const avg = avgTime.avgTime(number_of_pages) 
-        storagedBooks.push(title)
+        storagedBooks.push({
+          title:title,
+          subtitle:subtitle,
+          number_of_pages:number_of_pages,
+          publish_date:publish_date,
+          img:img,
+          avg:avg,
+        })
         console.log(storagedBooks)
         res.render('main', 
         {layout : 'index',title:title,subtitle:subtitle,number_of_pages:number_of_pages,publish_date:publish_date,img:img,avg:avg,storagedBooks:storagedBooks});
@@ -47,6 +53,12 @@ app.get('/', async (req, res) => {
     }
     
 })
+app.get('/StoragedBooks',(req,res)=>{
+  console.log(storagedBooks)
+  res.render('StoragedBooks', {layout : 'index',books:storagedBooks});
+})
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
 

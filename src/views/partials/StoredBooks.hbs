@@ -1,5 +1,7 @@
-{{#if title }}
-<div class="carta-book card w-50" style="width: 18rem;">
+<div class="row">
+  {{#each books}}
+    <div class="col-sm-6">
+      <div class="carta-book card w-50 m-4 mx-5" style="width: 18rem;">
   <img
     src={{img}}
     class="card-img-top"
@@ -15,17 +17,6 @@
     <li class="list-group-item">Publish date: {{publish_date}}</li>
   </ul>
 </div>
-{{else}}
-<h2 class="title">Your search results will appear here</h2>
-<div class="contenedor">
- <div class=" options">
-        <a href="#" class="section2button btn btn-primary changecolor">Search a Book!</a>
-      </div>
-      <div class="options">
-        <a href="/StoragedBooks" class="section2button btn btn-primary ">See Storaged Books</a>
-      </div>
-</div>
-   
-
-{{/if}}
-
+  </div>
+  {{/each}}
+  </div>

@@ -170,3 +170,34 @@ font-family: 'Allison', cursive;
     font-family: 'Allison', cursive;
     font-size: 1rem;
 }
+.options{
+  display: inline-block;
+  font-size: 20px;
+  padding: 7vh;
+  margin-right: 4vh;
+  font-family: 'Allison', cursive;
+ 
+
+}
+.contenedor{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.section2button{
+  
+  height: 7vh;
+  width: 41vh;
+  text-align: center;
+  padding: 2vh;
+  font-size: larger;
+
+}
+.changecolor{
+  background: #dd3f31 !important;
+}
+a{
+  text-decoration: none;
+  color: #f6f6f6;
+}
+a:hover { color:#dd3f31; }
