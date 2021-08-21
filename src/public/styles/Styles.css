@@ -233,3 +233,6 @@ a:hover { color:#dd3f31; }
 .socialicons .icon:hover {
   color: #dd3f31;
 }
+.noefect:hover {
+    color: #f6f6f6;
+}
