@@ -54,8 +54,13 @@ app.get('/', async (req, res) => {
     
 })
 app.get('/StoragedBooks',(req,res)=>{
-  console.log(storagedBooks)
-  res.render('StoragedBooks', {layout : 'index',books:storagedBooks});
+  if(storagedBooks.length > 0){
+    res.render('StoragedBooks', {layout : 'index',books:storagedBooks});
+
+  }
+  else{
+    res.render('StoragedBooks', {layout : 'index',ups:'ups'})
+  }
 })
 
 

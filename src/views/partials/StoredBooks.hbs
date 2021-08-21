@@ -1,4 +1,8 @@
 <div class="row">
+  {{#if ups}}
+    <h2 class="title">Ups! no cool things here</h2>
+    <h3 class="subtitle">Try fetchings some books</h3>
+  {{else}}
   {{#each books}}
     <div class="col-sm-6">
       <div class="carta-book card w-50 m-4 mx-5" style="width: 18rem;">
@@ -19,4 +23,5 @@
 </div>
   </div>
   {{/each}}
+  {{/if}}
   </div>
