@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const port = 8000
 const url = require('url');
 const querystring = require('querystring');
 const getBook = require('./modules/get-book');
@@ -64,7 +63,7 @@ app.get('/StoragedBooks',(req,res)=>{
 })
 
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(process.env.PORT || 5000, () => console.log(`Example app listening on port ${process.env.PORT}!`))
 
 
 // const code = req.query.code;
