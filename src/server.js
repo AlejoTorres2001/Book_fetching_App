@@ -1,7 +1,5 @@
 const express = require('express')
 const app = express()
-const url = require('url');
-const querystring = require('querystring');
 const getBook = require('./modules/get-book');
 const exphbs = require("express-handlebars");
 const path = require("path");
@@ -22,9 +20,12 @@ app.engine(
 app.set("view engine", ".hbs");
 //Stattic files
 app.use(express.static(path.join(__dirname, "public")));
-//responses
+
+
 var storagedBooks=[]
 var errors=[]
+
+//responses
 app.get('/', async (req, res) => {
     if (Object.entries(req.query).length !== 0){
         const code =req.query.code
@@ -64,13 +65,9 @@ app.get('/StoragedBooks',(req,res)=>{
 
   }
   else{
-    res.render('StoragedBooks', {layout : 'index',ups:'ups'})
+    res.render('StoragedBooks', {layout : 'index',ups:'ups',isStorage:true})
   }
 })
 
 
 app.listen(process.env.PORT || 5000, () => console.log(`Example app listening on port ${process.env.PORT}!`))
-
-
-// const code = req.query.code;
-// const book = await fetchBook(code)
