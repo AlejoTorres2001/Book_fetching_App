@@ -5,7 +5,11 @@
 				<li><a href="/">Home</a> </li>
 				<li><a href="/#books-anchor">About</a> </li>
 				<li><a href="/#how-does-it-work">How does it Work?</a></li>
+				{{#if isStorage}}
+				<li class="active"><a class="noefect" href="/">Fetch a Book</a></li>
+				{{else}}
 				<li class="active"><a class="noefect" href="/StoragedBooks">Storaged books</a></li>
+				{{/if}}
 			</ul>
 		</div>
 	</div>
