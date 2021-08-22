@@ -16,7 +16,11 @@
   </ul>
 </div>
 {{else}}
+{{#if errors}}
+<h2 class="title">Whoops! Take another look at your code </h2>
+{{else}}
 <h2 class="title">Your search results will appear here</h2>
+ {{/if}}
 <div class="contenedor">
  <div class=" options">
         <a href="#" class="section2button btn btn-primary changecolor">Search a Book!</a>
