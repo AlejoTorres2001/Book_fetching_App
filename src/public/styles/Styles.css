@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-        font-family: 'Robot', cursive;
+        font-family: 'Roboto', sans-serif;
         margin: 0;
         color: white;
         background: #202731;
@@ -30,7 +30,7 @@ body {
 .logo {
     font-size: 3em;
     transition: 0.15s;
-    font-family: 'Robot', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .active {
     background: #c5174d;
@@ -113,12 +113,12 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 .title{
-  font-family: 'Robot', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 5rem
 
 }
 .subtitle{
-  font-family: 'Robot', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem
 }
 .list-group{
@@ -139,10 +139,10 @@ input:-webkit-autofill:active {
 }
 .subtitlefooter{
 margin-bottom: revert;
-font-family: 'Robot', cursive;
+font-family: 'Roboto', sans-serif;
 }
 .pasos{
-  font-family: 'Robot', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   display: flex;
 }
@@ -156,7 +156,7 @@ font-family: 'Robot', cursive;
     display: flex;
     justify-content: center;
     margin-right: 28vh;
-    font-family: 'Robot', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 .options{
@@ -164,7 +164,7 @@ font-family: 'Robot', cursive;
   font-size: 20px;
   padding: 7vh;
   margin-right: 4vh;
-  font-family: 'Robot', cursive;
+  font-family: 'Roboto', sans-serif;
  
 
 }
@@ -198,7 +198,7 @@ a{
 }
 .title {
   text-align: center;
-  font-family: 'Robot', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 3em;
 }
 .noefect:hover {
