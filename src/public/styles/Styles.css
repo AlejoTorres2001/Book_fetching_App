@@ -189,7 +189,7 @@ a{
   text-decoration: none;
   color: #f6f6f6;
 }
-a:hover { color:#dd3f31; }
+
 
 * {
   margin: 0;
@@ -200,27 +200,6 @@ a:hover { color:#dd3f31; }
   text-align: center;
   font-family: 'Allison', cursive;
   font-size: 3em;
-}
-.socialicons {
-  display: flex;
-  margin-top: 100px;
-}
-.socialicons .icon{
-  width: 80px;
-  height: 80px;
-  box-shadow: 0 0 5px 10px rgba(0,0,0,0.05);
-  margin: 0 30px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 30px;
-  text-decoration: none;
-  color: #f6f6f6;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-}
-.socialicons .icon:hover {
-  color: #dd3f31;
 }
 .noefect:hover {
     color: #f6f6f6;
@@ -295,3 +274,95 @@ a:hover { color:#dd3f31; }
 		font-weight: normal;
 	}
 }
+
+/*Social Icons*/
+.social-icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.social-icon{
+  margin: 10px 25px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+
+}
+.icon__inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #f6f6f6;
+  text-align: center;
+}
+.social-icon i{
+  position: relative;
+  transition: 0.3s;
+  font-size: 30px;
+  z-index: 1;
+
+}
+.social-icon::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  transition: 0.3s;
+
+}
+.social-icon:hover::after,.social-icon:focus::after{
+  width: 100%;
+  height: 100%;
+  margin-left: -50%;
+  
+}
+.social-icon:hover,.social-icon:focus{
+  color: #f6f6f6;
+}
+.facebook{
+  color: #3b5998;
+}
+.facebook::after{
+  background: #3b5998;
+}
+
+
+
+.twitter::after{
+  background: #00acee;
+}
+.twitter{
+  color: #00acee;
+}
+
+
+.github{
+  color: #6e5494;
+}
+.github::after{
+  background: #6e5494;
+
+}
+.gmail{
+  color: #EA4335;
+}
+.gmail::after{
+  background: #EA4335;
+}
+
+
+
