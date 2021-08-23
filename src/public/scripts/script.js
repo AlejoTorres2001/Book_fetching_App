@@ -1,5 +1,5 @@
-const navbar = document.querySelector(".navcontainer");
-const logo = document.querySelector(".logo");
+const navbar = document.querySelector(".navbar");
+const logo = document.querySelector(".navbar-brand");
 window.onscroll = () => {
 	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		navbar.style.height = "60px";
