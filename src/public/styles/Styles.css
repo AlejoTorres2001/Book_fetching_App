@@ -16,6 +16,7 @@ body {
     background-color: #202731;
   /* At the top */
     z-index: 99;
+    transition: all .5s;
 }
 .navcontainer {
     display: flex;
@@ -277,13 +278,15 @@ a:hover { color:#dd3f31; }
   width: 100%;
 }
 .nav-item{
-  margin-right: 2rem;
+  margin-right: 7rem;
+
 }
 .logo:hover{
   color: #c5174d;
   border-radius: 6px;
 }
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 965px) {
 	.navbar-nav.ml-auto {
 		background: #202731;
 	}
