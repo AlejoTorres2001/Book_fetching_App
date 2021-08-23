@@ -6,4 +6,4 @@ Search and display info from your favourite books on this curvy looking website 
 
 See the full working app here
 
-https://pacific-harbor-09974.herokuapp.com/
+https://fetchingbooks.herokuapp.com/
