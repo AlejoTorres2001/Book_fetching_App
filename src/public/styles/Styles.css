@@ -1,9 +1,18 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.woff2') format('woff2'),
+       url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'robotoregular';
         margin: 0;
         color: white;
         background: #202731;
@@ -30,7 +39,7 @@ body {
 .logo {
     font-size: 3em;
     transition: 0.15s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'robotoregular';
 }
 .active {
     background: #c5174d;
@@ -113,12 +122,12 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 .title{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotoregular';
   font-size: 5rem
 
 }
 .subtitle{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotoregular';
   font-size: 2rem
 }
 .list-group{
@@ -139,10 +148,10 @@ input:-webkit-autofill:active {
 }
 .subtitlefooter{
 margin-bottom: revert;
-font-family: 'Roboto', sans-serif;
+font-family: 'robotoregular';
 }
 .pasos{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotoregular';
   font-size: 2rem;
   display: flex;
 }
@@ -156,7 +165,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     margin-right: 28vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'robotoregular';
     font-size: 1rem;
 }
 .options{
@@ -164,7 +173,7 @@ font-family: 'Roboto', sans-serif;
   font-size: 20px;
   padding: 7vh;
   margin-right: 4vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotoregular';
  
 
 }
@@ -198,7 +207,7 @@ a{
 }
 .title {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'robotoregular';
   font-size: 3em;
 }
 .noefect:hover {
@@ -215,7 +224,7 @@ a{
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-  font-family: 'Robot',cursive;
+  font-family: 'robotoregular';
   margin-right: 3rem;
 }
 
@@ -231,7 +240,7 @@ a{
 }
 .nav-link {
 	padding: .2rem 2rem;
-  font-family: 'Robot',cursive;
+  font-family: 'Roboto',cursive;
   
 }
 .nav-link.active, .nav-link:focus {
