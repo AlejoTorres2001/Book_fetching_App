@@ -1,18 +1,18 @@
-@font-face {
-  font-family: cursive;
+/* @font-face {
+  font-family: 'Itim', cursive;
   src: url('roboto-regular-webfont.woff2') format('woff2'),
        url('roboto-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
-}
+} */
 
 * {
     margin: 0;
     padding: 0;
 }
 body {
-        font-family: cursive;
+        font-family: 'Itim', cursive;
         margin: 0;
         color: white;
         background: #202731;
@@ -39,7 +39,7 @@ body {
 .logo {
     font-size: 3em;
     transition: 0.15s;
-    font-family: cursive;
+    font-family: 'Itim', cursive;
 }
 .active {
     background: #c5174d;
@@ -122,12 +122,12 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
 }
 .title{
-  font-family: cursive;
+  font-family: 'Itim', cursive;
   font-size: 5rem
 
 }
 .subtitle{
-  font-family: cursive;
+  font-family: 'Itim', cursive;
   font-size: 2rem
 }
 .list-group{
@@ -148,10 +148,10 @@ input:-webkit-autofill:active {
 }
 .subtitlefooter{
 margin-bottom: revert;
-font-family: cursive;
+font-family: 'Itim', cursive;
 }
 .pasos{
-  font-family: cursive;
+  font-family: 'Itim', cursive;
   font-size: 2rem;
   display: flex;
 }
@@ -165,7 +165,7 @@ font-family: cursive;
     display: flex;
     justify-content: center;
     margin-right: 28vh;
-    font-family: cursive;
+    font-family: 'Itim', cursive;
     font-size: 1rem;
 }
 .options{
@@ -173,7 +173,7 @@ font-family: cursive;
   font-size: 20px;
   padding: 7vh;
   margin-right: 4vh;
-  font-family: cursive;
+  font-family: 'Itim', cursive;
  
 
 }
@@ -207,7 +207,7 @@ a{
 }
 .title {
   text-align: center;
-  font-family: cursive;
+  font-family: 'Itim', cursive;
   font-size: 3em;
 }
 .noefect:hover {
@@ -224,7 +224,7 @@ a{
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-  font-family: cursive;
+  font-family: 'Itim', cursive;
   margin-right: 3rem;
 }
 
