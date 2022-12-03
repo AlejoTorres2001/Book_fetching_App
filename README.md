@@ -5,5 +5,4 @@ Search and display info from your favourite books on this curvy looking website 
 
 
 See the full working app here
-
-https://fetchingbooks.herokuapp.com/
+https://bookfetchingapp-production.up.railway.app
